@@ -35,7 +35,7 @@ function heapSort(arr) {
   return arr;
 }
 
-function FastestHeap(arr, k) {
+function fastestHeap(arr, k) {
   const sortArr = heapSort(arr);
   const result = [];
   for (let i = 0; i < k; i++) {
@@ -60,7 +60,7 @@ function selectionSort(arr) {
   return arr;
 }
 
-function FastestSelection(arr, k) {
+function fastestSelection(arr, k) {
   const sortArr = selectionSort(arr);
   const result = [];
   for (let i = 0; i < k; i++) {
